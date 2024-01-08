@@ -1,0 +1,33 @@
+<div style="display: flex; margin: 32px; font-size: 1.4em;" >
+  <div class="wrapper">
+    <span class="material-icons">
+      <img src="../../assets/icons/material/date_range_black_24dp_filled.svg">
+    </span>
+    <div class="content">
+      {{startDate}}
+    </div>
+    <div *ngIf="endDate != ''" class="content">
+        -  
+    </div>
+    <div *ngIf="endDate != ''" class="content">
+      {{endDate}}
+    </div>
+  </div>
+  <div *ngIf="description != ''" class="wrapper">
+    <span class="material-icons">
+      <img src="../../assets/icons/material/description_black_24dp_filled.svg">
+    </span>
+    <div class="content">
+      {{description}}
+    </div>
+  </div>
+  <div *ngIf="location != ''" class="wrapper">
+    <span class="material-icons">
+      <img src="../../assets/icons/material/place_black_24dp_filled.svg">
+    </span>
+    <div class="content">
+      {{location}}
+    </div>
+  </div>
+  
+</div>

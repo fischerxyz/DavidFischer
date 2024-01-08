@@ -1,0 +1,28 @@
+.social {
+    width: 24px;
+    height: 24px;
+
+    margin: 20px 4px;
+    float: left;
+}
+
+.social:hover {
+    width: 32px;
+    height: 32px;
+
+    margin: 16px 0px;
+    float: left;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+}
+
+.flexContainer{
+    width: 96px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+

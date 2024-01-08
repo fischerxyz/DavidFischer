@@ -1,0 +1,36 @@
+
+
+image{
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1026px) {
+    #changeLanguage{
+        position: fixed;
+        left: 0.4em;
+        top: 0.4em;
+    
+    }
+}
+
+
+@media only screen and (max-width: 1026px) {
+    #changeLanguage{
+        position: fixed;
+        left: 0.4em;
+        bottom: 0.4em;
+    
+    }
+}

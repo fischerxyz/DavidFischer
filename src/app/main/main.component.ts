@@ -19,5 +19,9 @@ export class MainComponent implements OnInit {
       dialog.close();
     }
   }
+  openWebsite(url: string){
+    window.open(url, '_blank');
+  }
+  
   
 }

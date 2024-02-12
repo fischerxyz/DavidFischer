@@ -22,4 +22,4 @@ jobs:
     - name: Remove old files
       run: sudo rm -r /var/www/david-fischer
     - name: Copy files
-      run: sudo cp -r -f /etc/actions-runner/_work/DavidFischer/DavidFischer/dist/david-fischer/. /var/www/david-fischer
+      run: sudo cp -r -f /etc/actions-runner_david-fischer/_work/DavidFischer/DavidFischer/dist/david-fischer/. /var/www/david-fischer

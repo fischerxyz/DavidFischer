@@ -20,6 +20,7 @@ import { LoaderComponent } from './main/loader/loader.component';
 import { SkillsComponent } from './main/skills/skills.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { MouseEffectComponent } from './main/mouse-effect/mouse-effect.component';
 
 
 @NgModule({
@@ -37,7 +38,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     PixelventureComponent,
     SectionComponent,
     SocialComponent,
-    TechstackComponent
+    TechstackComponent,
+
+    MouseEffectComponent
   ],
   imports: [
     BrowserModule,
